@@ -1,0 +1,6 @@
+CREATE TABLE InventarTypes 
+(
+    Id INT NOT NULL PRIMARY KEY,
+    Name VARCHAR(MAX) NOT NULL,
+    ModifiedOn DATETIME
+)
